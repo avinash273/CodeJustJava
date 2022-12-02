@@ -13,7 +13,6 @@ public class twoSumMain {
                 return new int[]{i, map.get(target - nums[i])};
             }
         }
-        System.out.println(new int[2]);
         return new int[2];
     }
 }
