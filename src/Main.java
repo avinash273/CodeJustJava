@@ -1,3 +1,4 @@
+import Leetcode.reverseIntegerMain;
 import Leetcode.twoSumMain;
 import Leetcode.lengthOfLongestSubstringMain;
 import Leetcode.zigzagConversionMain;
@@ -38,5 +39,13 @@ public class Main {
          */
         zigzagConversionMain zigzagConversionMainVar = new zigzagConversionMain();
         System.out.println("3. zigzagConversionMainVar: " + zigzagConversionMainVar.convert("PAYPALISHIRING", 3));
+
+        /**
+         * https://leetcode.com/problems/reverse-integer/
+         * Input: x = 123
+         * Output: 321
+         */
+        reverseIntegerMain reverseIntegerVar = new reverseIntegerMain();
+        System.out.println("4. reverseIntegerVar: " + reverseIntegerVar.reverse(123));
     }
 }
