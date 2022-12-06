@@ -46,6 +46,6 @@ public class Main {
          * Output: 321
          */
         reverseIntegerMain reverseIntegerVar = new reverseIntegerMain();
-        System.out.println("4. reverseIntegerVar: " + reverseIntegerVar.reverse(123));
+        System.out.println("4. reverseIntegerVar: " + reverseIntegerVar.reverse(321));
     }
 }
