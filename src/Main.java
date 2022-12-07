@@ -38,7 +38,7 @@ public class Main {
          * Output: "PAHNAPLSIIGYIR"
          */
         zigzagConversionMain zigzagConversionMainVar = new zigzagConversionMain();
-        System.out.println("3. zigzagConversionMainVar: " + zigzagConversionMainVar.convert("PAYPALISHIRING", 3));
+        System.out.println("3. zigzagConversionMain: " + zigzagConversionMainVar.convert("PAYPALISHIRING", 3));
 
         /**
          * https://leetcode.com/problems/reverse-integer/
@@ -46,6 +46,6 @@ public class Main {
          * Output: 321
          */
         reverseIntegerMain reverseIntegerVar = new reverseIntegerMain();
-        System.out.println("4. reverseIntegerVar: " + reverseIntegerVar.reverse(321));
+        System.out.println("4. reverseInteger: " + reverseIntegerVar.reverse(321));
     }
 }
