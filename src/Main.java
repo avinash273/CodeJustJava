@@ -51,5 +51,7 @@ public class Main {
         /**
          * zigzagConversionMain
          */
+        zigzagConversionMain zigzagConversionVar = new zigzagConversionMain();
+        System.out.println("5. zigzagConversionMain: " + zigzagConversionVar.convert("abcdef", 2));
     }
 }
