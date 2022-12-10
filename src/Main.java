@@ -47,6 +47,7 @@ public class Main {
 
         /**
          * zigzagConversionMain
+         * https://leetcode.com/problems/zigzag-conversion/
          * Input: s = "PAYPALISHIRING", numRows = 4
          * Output: "PINALSIGYAHRPI"
          * Explanation:
