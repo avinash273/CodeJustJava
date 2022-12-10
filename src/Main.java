@@ -53,6 +53,9 @@ public class Main {
 
         /**
          * intToRomanMain
+         * Input: num = 58
+         * Output: "LVIII"
+         * Explanation: L = 50, V = 5, III = 3.
          */
         intToRomanMain intToRomanVar = new intToRomanMain();
         System.out.println("6. intToRoman: " + intToRomanVar.intToRoman(58));
