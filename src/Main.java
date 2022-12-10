@@ -57,7 +57,7 @@ public class Main {
          * P     I
          */
         zigzagConversionMain zigzagConversionVar = new zigzagConversionMain();
-        System.out.println("5. zigzagConversionMain: " + zigzagConversionVar.convert("abcdef", 2));
+        System.out.println("5. zigzagConversionMain: " + zigzagConversionVar.convert("PAYPALISHIRING", 4));
 
         /**
          * intToRomanMain
