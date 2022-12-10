@@ -1,7 +1,4 @@
-import Leetcode.reverseIntegerMain;
-import Leetcode.twoSumMain;
-import Leetcode.lengthOfLongestSubstringMain;
-import Leetcode.zigzagConversionMain;
+import Leetcode.*;
 
 public class Main {
 
@@ -53,5 +50,11 @@ public class Main {
          */
         zigzagConversionMain zigzagConversionVar = new zigzagConversionMain();
         System.out.println("5. zigzagConversionMain: " + zigzagConversionVar.convert("abcdef", 2));
+
+        /**
+         * intToRomanMain
+         */
+        intToRomanMain intToRomanVar = new intToRomanMain();
+        System.out.println("6. intToRoman: " + intToRomanVar.intToRoman(58));
     }
 }
