@@ -47,6 +47,13 @@ public class Main {
 
         /**
          * zigzagConversionMain
+         * Input: s = "PAYPALISHIRING", numRows = 4
+         * Output: "PINALSIGYAHRPI"
+         * Explanation:
+         * P     I    N
+         * A   L S  I G
+         * Y A   H R
+         * P     I
          */
         zigzagConversionMain zigzagConversionVar = new zigzagConversionMain();
         System.out.println("5. zigzagConversionMain: " + zigzagConversionVar.convert("abcdef", 2));
