@@ -89,5 +89,7 @@ public class Main {
          */
         threeSumClosestMain threeSumClosestVar = new threeSumClosestMain();
         System.out.println("8. threeSumClosestMain: " + threeSumClosestVar.threeSumClosest(new int[]{-1, 2, 1, -4}, 1));
+
+
     }
 }
