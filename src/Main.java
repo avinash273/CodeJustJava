@@ -90,6 +90,14 @@ public class Main {
         threeSumClosestMain threeSumClosestVar = new threeSumClosestMain();
         System.out.println("8. threeSumClosestMain: " + threeSumClosestVar.threeSumClosest(new int[]{-1, 2, 1, -4}, 1));
 
+        /**
+         * letterCombinationsMain
+         * https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+         * Input: digits = "23"
+         * Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+         */
+        letterCombinationsMain letterCombinationsVar = new letterCombinationsMain();
+        System.out.println("9. letterCombinationsMain: "+ letterCombinationsVar.letterCombinations("23"));
 
     }
 }
