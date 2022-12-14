@@ -71,15 +71,23 @@ public class Main {
 
         /**
          * containerWithMostWaterMain Test
+         * https://leetcode.com/problems/container-with-most-water/
+         * Input: height = [1,8,6,2,5,4,8,3,7]
+         * Output: 49
+         * Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7].
+         * In this case, the max area of water (blue section) the container can contain is 49.
          */
+        containerWithMostWaterMain containerWithMostWaterVar = new containerWithMostWaterMain();
+        System.out.println("7. containerWithMostWaterMain: "+ containerWithMostWaterVar.maxArea());
 
         /**
          * threeSumClosest
+         * https://leetcode.com/problems/3sum-closest/
          * Input: nums = [-1,2,1,-4], target = 1
          * Output: 2
          * Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
          */
         threeSumClosestMain threeSumClosestVar = new threeSumClosestMain();
-        System.out.println("7. threeSumClosestMain: " + threeSumClosestVar.threeSumClosest(new int[]{-1, 2, 1, -4}, 1));
+        System.out.println("8. threeSumClosestMain: " + threeSumClosestVar.threeSumClosest(new int[]{-1, 2, 1, -4}, 1));
     }
 }
