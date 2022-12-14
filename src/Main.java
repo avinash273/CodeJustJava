@@ -75,6 +75,11 @@ public class Main {
 
         /**
          * threeSumClosest
+         * Input: nums = [-1,2,1,-4], target = 1
+         * Output: 2
+         * Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
          */
+        threeSumClosestMain threeSumClosestVar = new threeSumClosestMain();
+        System.out.println("7. threeSumClosestMain: " + threeSumClosestVar.threeSumClosest(new int[]{-1, 2, 1, -4}, 1));
     }
 }
