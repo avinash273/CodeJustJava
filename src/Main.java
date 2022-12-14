@@ -78,7 +78,7 @@ public class Main {
          * In this case, the max area of water (blue section) the container can contain is 49.
          */
         containerWithMostWaterMain containerWithMostWaterVar = new containerWithMostWaterMain();
-        System.out.println("7. containerWithMostWaterMain: "+ containerWithMostWaterVar.maxArea());
+        System.out.println("7. containerWithMostWaterMain: "+ containerWithMostWaterVar.maxArea(new int[]{1,8,6,2,5,4,8,3,7}));
 
         /**
          * threeSumClosest
