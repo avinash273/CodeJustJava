@@ -16,7 +16,7 @@ class AdvancedCalculator extends Calculator{
         return a * b;
     }
 
-    public int divide(int a, int b){
+    public int divide(Integer a, int b){
         return a / b;
     }
 }
@@ -35,5 +35,8 @@ public class InheritanceExample {
         System.out.println(calculator.add(2, 3));
         System.out.println(calculator.divide(2, 1));
         System.out.println(veryCalculator.add(2, 3));
+
+        String number = "12";
+        int numberInt = Integer.parseInt(number);
     }
 }
