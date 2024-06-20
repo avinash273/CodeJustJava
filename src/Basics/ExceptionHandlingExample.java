@@ -30,6 +30,9 @@ public class ExceptionHandlingExample {
         catch(Exception e){
             System.out.println("Exception" + e.getMessage());
         }
+        finally {
+            System.out.println("Finally");
+        }
 
         System.out.println(j);
     }
