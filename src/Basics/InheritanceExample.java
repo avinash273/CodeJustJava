@@ -1,5 +1,10 @@
 package Basics;
 
+@FunctionalInterface
+interface App{
+    void show();
+}
+
 class Calculator{
     public int add(int a, int b){
         return a + b;
