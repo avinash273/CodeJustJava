@@ -55,6 +55,9 @@ public class ComparatorExample {
         for (Player p : footballTeam) {
             System.out.println("Before Sorting: " + p.getAge());
         }
+
+        footballTeam.forEach(n -> System.out.println("After Sorting: " + n.getAge()));
+
         footballTeam.sort((o1, o2) -> o1.getAge() - o2.getAge());
         footballTeam.sort((o1, o2) -> o1.getName().compareTo(o2.getName()));
 
