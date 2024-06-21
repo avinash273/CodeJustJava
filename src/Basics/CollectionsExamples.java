@@ -5,7 +5,7 @@ import java.util.*;
 public class CollectionsExamples {
     public static void main(String[] args) {
 
-
+        //ArrayList
         ArrayList<Integer> list = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             list.add(i+10);
@@ -14,7 +14,10 @@ public class CollectionsExamples {
         System.out.println(list.get(5));
         System.out.println(list.contains(5));
 
-
+        //Sorting in collections
+        Collections.sort(list);
+        System.out.println("heree" + list);
+        //HashSet
         HashSet<Integer> set = new HashSet<>();
         for (int i = 0; i < 20; i++) {
             set.add(i / 5);
