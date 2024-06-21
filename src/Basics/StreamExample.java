@@ -9,7 +9,8 @@ public class StreamExample {
         list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
         Stream<Integer> stream = list.stream();
-        stream.forEach(n -> System.out.print(n));
+
+        list.stream().map(x -> x * x).forEach(System.out::print);
 
         list.stream().filter(x -> x % 2 == 0).forEach(System.out::print);
 
@@ -18,7 +19,5 @@ public class StreamExample {
                 System.out.print(n);
             }
         });
-
-        list.stream();
     }
 }
